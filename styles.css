@@ -1,0 +1,250 @@
+/* * {
+  border: solid 1px blue;
+} */
+
+body {
+  height: 1000px;
+  width: 100%;
+  padding-top: 125px;
+  background-color: #CBC5EA;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #183642;
+  width: 100%;
+  height: 100px;
+
+}
+
+.nav-menu-options {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30px;
+}
+
+.navItem {
+  display: inline-flex;
+  width: 180px;
+  color: #EAEAEA;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  align-items: center;
+}
+
+.title {
+  margin: 0px;
+  padding: 0px;
+}
+
+.shares-img, .playlists-img, .videos-img {
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.image-holder {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  padding-right: 60px;
+  height: 60px;
+  width: 190px;
+}
+
+main {
+  height: 1400px;
+}
+
+h1 {
+  padding-left: 20px;
+  color: #1D2435;
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.cards {
+  height: 100%;
+  width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  background-color: #CBC5EA;
+  flex-wrap: wrap;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  width: 310px;
+  background-color: #EAEAEA;
+  margin-bottom: 20px;
+  border: #73628A 2px solid;
+  border-style: insert;
+}
+
+.frame {
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+  width: 310px;
+}
+
+.picture {
+  /* align-items: flex-start; */
+  height: 160px;
+  width: 310px;
+}
+
+.topCard {
+  display: flex;
+}
+
+.recipName {
+  font-size: 20px;
+}
+
+.row, .row-2 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.single-card {
+  width: 23%;
+  height: 400px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+.image-1{
+  background-image: url("assets/squirrel.jpg");
+}
+
+.image-2 {
+  background-image: url("assets/yak.jpg");
+}
+
+.image-3 {
+  background-image: url("assets/snek.jpg");
+}
+
+.image-4 {
+  background-image: url("assets/birb.jpg");
+}
+.image-5{
+  background-image: url("assets/fox.jpg");
+}
+
+.image-6 {
+  background-image: url("assets/jellyfish.jpg");
+}
+
+.image-7 {
+  background-image: url("assets/lizard.jpg");
+}
+
+.image-8 {
+  background-image: url("assets/seaturtle.jpg");
+}
+
+.single-card-image-holder {
+  width: 100%;
+  height: 150px;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(230,180,250,.3);
+}
+
+.single-card-bottom {
+  height: 250px;
+  width: 100%;
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.recepient-info {
+  margin: 0px;
+  height: 50px;
+}
+
+.recepient-info-title {
+  margin: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.recepient-info-subtitle {
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.url-holder {
+  margin: 0px;
+  padding-left: 15px;
+  height: 50px;
+  width: 300px;
+}
+
+.url-display {
+  padding-bottom: 15px;
+  background-color: #eaeaea;
+  padding: 5px;
+}
+
+.playlist-title {
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 13px;
+}
+
+.playlist-subtitle {
+  margin: 0px;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.attachments-title {
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.attachments-number {
+  margin: 0px;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #183642;
+}
